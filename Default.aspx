@@ -39,7 +39,6 @@
         <br />
         <br />
         <asp:SqlDataSource ID="SqlDS1" runat="server" 
-            ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Vac.accdb;Persist Security Info=True" 
             ProviderName="System.Data.OleDb" 
             SelectCommand="SELECT * FROM [Two] WHERE (([كود] = ?) AND ([PW] = ?))">
             <SelectParameters>
